@@ -81,7 +81,7 @@ int sum = numeros.stream()
 System.out.println(sum);
 
 // filtra os números pares, então aplica a o dobro nesses números pares, e os imprime na tela.
-numbers.stream()
+numeros.stream()
                .filter(n -> n % 2 == 0) 
                .map(n -> n * 2) 
                .forEach(n -> System.out.println(n));
