@@ -18,6 +18,9 @@ O conceito Lambda foi adicionado ao Java na 8 versão com o objetivo principal d
 
 // recebe dois parâmetros x,y retorna a subtração x-y.
 (int x, int y) -> {return x - y ;}
+
+// não recebe nenhum parâmetro e retorna x.
+() -> x
 ```
 
 ## Exemplo de funções lambda com classe de coleção:
